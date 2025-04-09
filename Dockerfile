@@ -11,8 +11,8 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 
-# App runs on port 3000
-EXPOSE 3000
+# App runs on port 4000
+EXPOSE 4000
 
 # Start the application
 CMD ["node", "app.js"]
